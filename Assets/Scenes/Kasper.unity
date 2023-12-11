@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 497793653}
   m_Layer: 5
   m_Name: NoteCanvas
-  m_TagString: Untagged
+  m_TagString: cameraCanvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 861626704}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: cameraCanvas
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1964,7 +1964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7315088402313144741, guid: 1e6bab2470174bd4eb23c884a6e9df1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.12
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 7315088402313144741, guid: 1e6bab2470174bd4eb23c884a6e9df1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2700,8 +2700,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c9c33f6c2f0144e8f4e853be8049b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A1: {fileID: 4123470546299306044, guid: d4b32cd98f3251a42bc1d00a4750a187, type: 3}
-  A2: {fileID: 4123470546299306044, guid: 00db31a7b3934ef448335dd9341ef08b, type: 3}
+  assignmentPicked: 0
+  A1:
+  - {fileID: 4123470546299306044, guid: d4b32cd98f3251a42bc1d00a4750a187, type: 3}
+  - {fileID: 4123470546299306044, guid: 00db31a7b3934ef448335dd9341ef08b, type: 3}
+  - {fileID: 4123470546299306044, guid: affee8c330b8ec84188e57669313176d, type: 3}
+  - {fileID: 4123470546299306044, guid: ce5a02a6a78222542b84be9a87035a07, type: 3}
+  - {fileID: 4123470546299306044, guid: f51138d042112da40866a59191d2e509, type: 3}
+  A2:
+  - {fileID: 4123470546299306044, guid: 0c451b80e08a5414d8558dfcb7cb0f97, type: 3}
+  - {fileID: 4123470546299306044, guid: 83ec2eeae72269044b6461b578ec830f, type: 3}
+  - {fileID: 4123470546299306044, guid: 8d4f55ae437255a419fd75fc43d3a7ea, type: 3}
+  - {fileID: 4123470546299306044, guid: 15c15f73ace66b64a9ef5c3a3a1a750c, type: 3}
+  - {fileID: 4123470546299306044, guid: 845bc021346e1f44ea68b33f69544a4c, type: 3}
+  A3:
+  - {fileID: 4123470546299306044, guid: e73d91ab5b9576a46933a65c2f160892, type: 3}
+  - {fileID: 4123470546299306044, guid: 18826d40cea865e4da4e6cae2bdeb6d4, type: 3}
+  - {fileID: 4123470546299306044, guid: 9ee63a3de25067a4f9c073e06ca3f4c0, type: 3}
+  - {fileID: 4123470546299306044, guid: 1fcb504f212356a4e98eb0c00688b163, type: 3}
+  - {fileID: 4123470546299306044, guid: fca963243c1a5424ba24b5a01f0b3c15, type: 3}
+  assText: {fileID: 1385997077}
 --- !u!4 &1909181315
 Transform:
   m_ObjectHideFlags: 0
