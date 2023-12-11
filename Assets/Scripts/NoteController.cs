@@ -12,12 +12,17 @@ public class NoteController : MonoBehaviour
     [SerializeField] private TMP_Text CanvasText;
 
     [Space(10)]
-    [SerializeField] [TextArea] private string noteText;
+    [SerializeField] [TextArea] public string noteText;
 
     [Space(10)]
     [SerializeField] private UnityEvent openEvent;
     private bool isOpen = false;
 
+    void Start() {
+        NoteCanvas = GameObject.FindWithTag("cameraCanvas");
+        //somehow find CanvasText and set it!   
+        CanvasText = GameObject.FindWithTag("canvasText").GetComponent<TMP_Text>();
+    }
 
 
     public void ShowNote() {
