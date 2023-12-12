@@ -29,13 +29,13 @@ public class gameManager : MonoBehaviour
             case 2:
                 for (int i = 0; i < A1.Length; i++) {
                     Instantiate(A2[i], new Vector3(11, 1.745f, 1 + i), Quaternion.identity);
-                    assText.text = "Test.dk";
+                    assText.text = "digst.dk";
                 };
                 break;
             case 3:
                 for (int i = 0; i < A1.Length; i++) {
                     Instantiate(A3[i], new Vector3(11, 1.745f, 1 + i), Quaternion.identity);
-                    assText.text = "cyber.eu";
+                    assText.text = "digitalsikkerhed.dk";
                 };
                 break;
             default:
