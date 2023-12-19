@@ -14,13 +14,10 @@ public class Raycast : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         _camera = GetComponent<Camera>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (Physics.Raycast(_camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f)), transform.forward, out RaycastHit hit, rayLength)) {
@@ -33,12 +30,10 @@ public class Raycast : MonoBehaviour
         } else {
             ClearNote();
         }
-
         if(_noteController != null) {
             _noteController.ShowNote();
         }
     }
-
     void ClearNote() {
         if(_noteController != null) {
             _noteController.DisableNote();
